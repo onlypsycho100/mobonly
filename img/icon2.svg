@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="64px" viewBox="0 0 52 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main" transform="translate(-513.000000, -923.000000)" fill="#FFFFFF">
+            <g id="Group-3" transform="translate(360.000000, 610.000000)">
+                <g id="process" transform="translate(0.000000, 313.000000)">
+                    <g id="Group">
+                        <g id="icon2" transform="translate(153.000000, 0.000000)">
+                            <path d="M0,0 L52,0 L52,64 L0,64 L0,0 Z M2,2 L2,62 L50,62 L50,2 L2,2 Z M34,23 L34,29 C34,33.418278 30.418278,37 26,37 C21.581722,37 18,33.418278 18,29 L18,23 L16,23 L16,21 C16,16.581722 19.581722,13 24,13 L28,13 C32.418278,13 36,16.581722 36,21 L36,23 L34,23 Z M32,23 L20,23 L20,29 C20,32.3137085 22.6862915,35 26,35 C29.3137085,35 32,32.3137085 32,29 L32,23 Z M26,26 C26.5522847,26 27,26.4477153 27,27 L27,29 C27,29.5522847 26.5522847,30 26,30 C25.4477153,30 25,29.5522847 25,29 L25,27 C25,26.4477153 25.4477153,26 26,26 Z M17,43 L35,43 L35,45 L17,45 L17,43 Z M13,48 L39,48 L39,50 L13,50 L13,48 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
