@@ -213,6 +213,16 @@ footer {
     margin: 1.25rem 0;
 }
 
+.rectangle_done {
+    height: 4px;
+    width: 85%;
+    padding-left: 12px;
+    background-color: #F16973;
+    display: inline-block;
+    margin: 1.25rem 0;
+}
+
+
 .rectangle_doing {
     height: 4px;
     width: 85%;
@@ -365,12 +375,12 @@ label {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 30% auto; /* 15% from the top and centered */
+    margin: 26% auto; /* 15% from the top and centered */
     padding: 30px;
     border: 1px solid #888;
     border-radius: 4px;
     width: 300px;
-    text-align: center;             
+    text-align: center;        
 }
 
 .modal-content .modal_txt {
@@ -627,6 +637,10 @@ li {
     }
     
     .rectangle_doing {
+        display: none;
+    }
+
+    .rectangle_done {
         display: none;
     }
     
