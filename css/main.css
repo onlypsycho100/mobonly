@@ -57,7 +57,7 @@ footer {
 
 /* 컨테이너 */
 .container {
-    position: relative; 
+    position: relative;  
     width: 1200px; 
     margin: 0 auto;
 }
@@ -249,12 +249,15 @@ footer {
     padding: 10px 14px;
     text-align: center;
     display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.btn_apply a{
     font-size: 14px;
     font-weight: 700;
     color: #fff;
     font-family: 'Lato', sans-serif;
-    margin-top: 1rem;
-    cursor: pointer;
 }
 
 .btn_apply:hover {
@@ -295,6 +298,10 @@ footer {
     border-radius: 8px;
     text-align: left;
     display: inline-block;
+}
+
+.card ul li {
+   left : 1rem;
 }
 
 .card>h3 {
@@ -454,7 +461,6 @@ li {
     margin-top: 8px;
     font-size: 14px;
     font-weight: 400;
-    left: 1rem;
     width: calc(100% - 1rem);
     color: #fff;
     opacity: 0.6;
@@ -509,7 +515,7 @@ li {
     }
 
     .twitter {
-        width: 70%;
+        width: 80%;
         display: block;
         margin: 4rem auto;
     }
@@ -734,6 +740,12 @@ li {
     .modal-content {
         background-color: #fefefe;
         margin: 40% auto; /* 15% from the top and centered */
+    }
+
+    .twitter {
+        width: 100%;
+        display: block;
+        margin: 4rem auto;
     }
 
 }
