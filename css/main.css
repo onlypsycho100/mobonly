@@ -58,7 +58,7 @@ footer {
 /* 컨테이너 */
 .container {
     position: relative;  
-    width: 1200px; 
+    max-width: 1200px; 
     margin: 0 auto;
 }
 
@@ -703,8 +703,7 @@ li {
     }
 
     .twitter {
-        width: 80%;
-        display: block;
+        width: 90%;
         margin: 3rem auto;
     }
 
