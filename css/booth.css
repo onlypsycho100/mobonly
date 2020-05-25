@@ -1,4 +1,3 @@
-
 .booth_menu {
     height: 54px;
     background-color: #211C2F;
@@ -12,7 +11,7 @@
 
 .booth_menu li {
     display: inline-block;
-    margin: 0px !important;
+    margin: 0px 8px !important;
     width: 80px;
     height: 54px;
     line-height: 54px;
@@ -40,6 +39,56 @@
     padding: 4rem 0;
 }
 
+
+/* 부스리스트 */
+
+.booth_row {
+    margin: 40px 0 16px 0;
+}
+
+
+#list {
+    column-count: 3;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#list .card {
+    width: 320px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#list .boothname p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#list .boothcut {
+    margin: 24px 0;
+}
+
+.boothcut img{
+    width: 100%;
+    display: inline-block;
+}
+
+#list .description {
+    font-size: 13px;
+    opacity: 0.7;
+    line-height: 20px;
+    margin: 8px 0;
+}
+
+@media (max-width: 1024px){
+
+    #list {
+        column-count: 2;
+        max-width: 800px;
+    }
+}
+
 @media (max-width: 768px){
 
     .booth_menu {
@@ -47,7 +96,12 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+
+    #list {
+        column-count: 1;
+        max-width: 500px;
+    }
 
     .booth_menu {
         height: 38px;
@@ -75,6 +129,16 @@
         width: 100%;
         margin: 16px auto;
         height: 1680px;
+    }
+
+    #list .card {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .boothcut img{
+        width: ;: 100%;
+        display: inline-block;
     }
 
 }
