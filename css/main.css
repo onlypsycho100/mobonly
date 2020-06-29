@@ -700,10 +700,8 @@ li {
     }
 
     .twitter {
-        width: 100%;
         min-width: 300px; 
         margin: 2rem auto;
-        position: relative;
     }
 
     .process {
