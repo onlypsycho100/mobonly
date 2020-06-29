@@ -702,10 +702,8 @@ li {
     .twitter {
         min-width: 100%;
         margin: 2rem auto;
-    }
-
-    .twitter-timeline {
-        min-width: 300px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
     }
 
     .process {
