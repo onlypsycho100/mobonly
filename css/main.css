@@ -743,10 +743,4 @@ li {
         margin: 40% auto; /* 15% from the top and centered */
     }
 
-    .twitter {
-        width: 100%;
-        display: block;
-        margin: 4rem auto;
-    }
-
 }
