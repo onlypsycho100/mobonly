@@ -48,14 +48,13 @@
 
 
 #list {
-    column-count: 3;
     padding-bottom: 40px;
     margin: 0 auto;
     max-width: 1200px;
 }
 
 #list .card {
-    width: 320px;
+    width: 300px;
     display: inline-block;
     vertical-align: top;
 }
@@ -84,7 +83,6 @@
 @media (max-width: 1024px){
 
     #list {
-        column-count: 2;
         max-width: 800px;
     }
 }
@@ -93,6 +91,10 @@
 
     .booth_menu {
         margin-top: 68px;
+    }
+
+    .boothdesk {
+        width: 100%;
     }
 }
 
@@ -137,7 +139,7 @@
     }
 
     .boothcut img{
-        width: ;: 100%;
+        width: 100%;
         display: inline-block;
     }
 
